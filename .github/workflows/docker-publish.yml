@@ -1,10 +1,10 @@
 #
-name: Lua Docker image, 5.4.8 on Ubuntu (clang).
+name: Webgraph Docker image, 0.3.0 on rust:latest.
 
 # Configures this workflow to run every time a change is pushed to the branch called `release`.
 on:
     push:
-        branches: ["5.4.8"]
+        branches: ["master"]
 
 # Defines two custom environment variables for the workflow. These are used for the Container registry domain, and a name for the Docker image that this workflow builds.
 env:
